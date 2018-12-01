@@ -3,10 +3,14 @@
 
 ## Steps to downloading and using correctly
    1. Click *'Clone or download'* and click *'Download ZIP'*
+   
    2. Save it to *Documents* folder and extract it
+   
       - **EDGE**
         - Click the *arrow next to 'Save'* and click *'Save as'* and click the *Documents* folder, navigate to your *Documents* folder, right click the *ZIP file* and click *'Extract all'*
+        
       - **Chrome**
         - It will automatically download to your *Downloads* folder, so navigate to your *Downloads* folder, right click the *ZIP file* and click *'Extract all'*
+
 
 **NOTE: THE FILE WILL NOT CONTAIN ANY CHANGES I WILL MAKE TO IT, IF YOU WANT THE UPDATED FILE THEN YOU NEED TO REDOWNLOAD IT**
