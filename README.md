@@ -9,3 +9,4 @@
       - **Chrome**
         - It will automatically download to your *Downloads* folder, so navigate to your *Downloads* folder, right click the *ZIP file* and click *'Extract all'*
 
+**NOTE: THE FILE WILL NOT CONTAIN ANY CHANGES I WILL MAKE TO IT, IF YOU WANT THE UPDATED FILE THEN YOU NEED TO REDOWNLOAD IT**
