@@ -1,4 +1,4 @@
 # BionicBuzzardsROBOT
+**For easy sharing, use this TINYURL Link:** https://tinyurl.com/bionicbuzzardrobot
 
-## TINY URL Link
-TINYURL link to this repo: https://tinyurl.com/bionicbuzzardrobot
+## Steps to downloading and using correctly
