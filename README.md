@@ -6,7 +6,7 @@
    
    2. Save it to *Documents* folder and extract it
    
-      - **EDGE**
+      - **Microsoft Edge**
         - Click the *arrow next to 'Save'* and click *'Save as'* and click the *Documents* folder, navigate to your *Documents* folder, right click the *ZIP file* and click *'Extract all'*
         
       - **Chrome**
