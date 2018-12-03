@@ -14,10 +14,10 @@
 
 void pre_auton()
 {
-  // Set bStopTasksBetweenModes to false if you want to keep user created tasks
-  // running between Autonomous and Driver controlled modes. You will need to
-  // manage all user created tasks if set to false.
-  bStopTasksBetweenModes = true;
+	// Set bStopTasksBetweenModes to false if you want to keep user created tasks
+	// running between Autonomous and Driver controlled modes. You will need to
+	// manage all user created tasks if set to false.
+	bStopTasksBetweenModes = true;
 }
 
 task autonomous()
@@ -32,22 +32,23 @@ task autonomous()
 	motor[TopRight]= 0;
 	motor[BottomLeft] = 0;
 	motor[BottomRight] = 	0;
-*/
-AutonomousCodePlaceholderForTesting;
-	}
+	*/
+	AutonomousCodePlaceholderForTesting();
+
+}
 
 task usercontrol()
 {
-  // User control code here, inside the loop
+	// User control code here, inside the loop
 
-  while (true)
-  {
-  //Sets the motors to the desired controller channels
- 	motor[TopLeft] = vexRT[Ch3];
-	motor[TopRight]= vexRT[Ch2];
-	motor[BottomLeft] = vexRT[Ch3];
-	motor[BottomRight] = 	vexRT[Ch2];
-  }
+	while (true)
+	{
+		//Sets the motors to the desired controller channels
+		motor[TopLeft] = vexRT[Ch3];
+		motor[TopRight]= vexRT[Ch2];
+		motor[BottomLeft] = vexRT[Ch3];
+		motor[BottomRight] = 	vexRT[Ch2];
+	}
 
 
 }
