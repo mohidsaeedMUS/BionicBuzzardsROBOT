@@ -23,4 +23,4 @@
    2. On the top, click *File* -> *Open and Compile* -> Navigate to the folder you saved it to (Documents or Downloads) -> Click the file and press *'Open'*
 
 
-:exclamation: **NOTE: THE FILE WILL NOT CONTAIN ANY CHANGES I WILL MAKE TO IT, IF YOU WANT THE UPDATED FILE THEN YOU NEED TO REDOWNLOAD IT** :exclamation:
+:exclamation: **NOTE: THE FILE WILL DOES NOT UPDATE TO ANY CHANGES I WILL MAKE TO IT, IF YOU WANT THE UPDATED FILE THEN YOU NEED TO REDOWNLOAD IT** :exclamation:
