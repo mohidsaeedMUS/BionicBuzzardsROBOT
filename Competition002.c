@@ -3,21 +3,6 @@
 #pragma config(Motor,  port3,           TopLeft,       tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port4,           TopRight,      tmotorVex393_MC29, openLoop, reversed)
 
-/*Programmed by:
-
-//////////////////////////////////////
-___  ___      _     _     _ _____
-|  \/  |     | |   (_)   | /  ___|
-| .  . | ___ | |__  _  __| \ `--.
-| |\/| |/ _ \| '_ \| |/ _` |`--. \
-| |  | | (_) | | | | | (_| /\__/ /
-\_|  |_/\___/|_| |_|_|\__,_\____/
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-*/
-
-
-
 // This code is for the VEX cortex platform
 #pragma platform(VEX2)
 
@@ -64,8 +49,43 @@ task usercontrol()
 		motor[TopRight]= vexRT[Ch2];
 		motor[BottomLeft] = vexRT[Ch3];
 		motor[BottomRight] = 	vexRT[Ch2];
-	}
 
+
+//Button-press autonomous testing, for QUICK DEBUGGING purposes; remove for competition
+
+//AUTONOMOUS QUICK DEBUG
+
+		if(vexRT[Btn8U] == 1)
+		{
+			//AUTONOMOUS GO HERE
+		motor[TopLeft] = 127;
+		motor[TopRight] = 127;
+		motor[BottomLeft] = 127;
+		motor[BottomRight] = 127;
+		}
+
+//AUTONOMOUS CANCEL
+
+		else if(vexRT[Btn8R] == 1)
+		{
+			//SETS ALL MOTORS TO 0
+			motor[TopLeft] = 0;
+			motor[TopRight] = 0;
+			motor[BottomLeft] = 0;
+			motor[BottomRight] = 0;
+		}
+
+//IF BUTTON NOT PRESSED AT ALL
+		else
+		{
+		 //MOTORS DONT DO ANYTHING
+			motor[TopLeft] = 0;
+			motor[TopRight] = 0;
+			motor[BottomLeft] = 0;
+			motor[BottomRight] = 0;
+			}
+
+	}
 
 
 }
