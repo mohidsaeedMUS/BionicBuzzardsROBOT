@@ -3,6 +3,21 @@
 #pragma config(Motor,  port3,           TopLeft,       tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port4,           TopRight,      tmotorVex393_MC29, openLoop, reversed)
 
+/*Programmed by:
+
+//////////////////////////////////////
+___  ___      _     _     _ _____
+|  \/  |     | |   (_)   | /  ___|
+| .  . | ___ | |__  _  __| \ `--.
+| |\/| |/ _ \| '_ \| |/ _` |`--. \
+| |  | | (_) | | | | | (_| /\__/ /
+\_|  |_/\___/|_| |_|_|\__,_\____/
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+*/
+
+
+
 // This code is for the VEX cortex platform
 #pragma platform(VEX2)
 
@@ -43,12 +58,14 @@ task usercontrol()
 
 	while (true)
 	{
+
 		//Sets the motors to the desired controller channels
 		motor[TopLeft] = vexRT[Ch3];
 		motor[TopRight]= vexRT[Ch2];
 		motor[BottomLeft] = vexRT[Ch3];
 		motor[BottomRight] = 	vexRT[Ch2];
 	}
+
 
 
 }
