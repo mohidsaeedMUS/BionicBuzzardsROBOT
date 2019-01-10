@@ -16,7 +16,7 @@
 //Main competition background code...do not modify!
 #include "Vex_Competition_Includes.c"
 
-///////////////////////////////////////////////////////////////
+///DEPRECATED/COPY AND PASTE THINGS////////////////////////////////////////////////////////////
 
 /*void autonomousDebug()
 {
@@ -34,6 +34,15 @@ void autonomousDebugCancel()
 }
 */
 
+/*
+motor[TopLeft] = ;
+motor[TopRight] = ;
+motor[BottomLeft] = ;
+motor[BottomRight] = ;
+*/
+
+///END OF DEPRECATED/COPY AND PASTE THINGS/////////////////////////////////////////////////////////////////////////////
+
 void pre_auton()
 {
 	// Set bStopTasksBetweenModes to false if you want to keep user created tasks
@@ -44,18 +53,60 @@ void pre_auton()
 
 task autonomous()
 {
-	/*
-	motor[TopLeft] = 127;
-	motor[TopRight]= 127;
-	motor[BottomLeft] = 127;
-	motor[BottomRight] = 	127;
-	wait1Msec(1000);
-	motor[TopLeft] = 0;
-	motor[TopRight]= 0;
-	motor[BottomLeft] = 0;
-	motor[BottomRight] = 	0;
-	*/
-	AutonomousCodePlaceholderForTesting();
+/*
+motor[TopLeft] = -127;
+motor[TopRight] = -127;
+motor[BottomLeft] = -127;
+motor[BottomRight] = -127;
+wait1Msec(1000);
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = 0;
+motor[BottomRight] = 0;
+wait1Msec(500);
+*/
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = 0;
+motor[BottomRight] = -127;
+wait1Msec(1000);
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = 0;
+motor[BottomRight] = 0;
+wait1Msec(200);
+
+motor[TopLeft] = -127;
+motor[TopRight] = -127;
+motor[BottomLeft] = -127;
+motor[BottomRight] = -127;
+wait1Msec(200);
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = 0;
+motor[BottomRight] = 0;
+wait1Msec(200);
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = -127;
+motor[BottomRight] = 0;
+
+motor[TopLeft] = 0;
+motor[TopRight] = 0;
+motor[BottomLeft] = 0;
+motor[BottomRight] = 0;
+wait1Msec(200);
+
+motor[TopLeft] = -127;
+motor[TopRight] = -127;
+motor[BottomLeft] = -127;
+motor[BottomRight] = -127;
+wait1Msec(500);
 
 }
 
